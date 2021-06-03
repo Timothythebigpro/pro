@@ -67,3 +67,28 @@ p {
 
 
 }
+
+.menu {
+    top: 10px;
+    right: 30px;
+    position: absolute;
+    color: #ff1100;
+    font-family: fantasy;
+    list-style: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    color: chartreuse;
+    font-size: 28px;
+}
+
+.links:hover {
+    background-color: firebrick;
+}
